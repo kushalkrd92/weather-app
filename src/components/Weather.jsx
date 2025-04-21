@@ -62,7 +62,7 @@ const Weather = () => {
   }
 
   useEffect(()=>{
-    search("Dhanbad");
+    search("New York");
   },[])
 
   return <div className="weather">
